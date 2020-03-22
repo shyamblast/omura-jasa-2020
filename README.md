@@ -3,13 +3,13 @@ Implementation of algorithms described in
 
 > Shyam Madhusudhana, Anita Murray, and Christine Erbe. "Automatic detectors for low-frequency vocalizations of Omura’s whales, Balaenoptera omurai: A performance comparison." _The Journal of the Acoustical Society of America_ (2020)
 
-for detection of Omura's whale vocalizations.
+for the detection of Omura's whale vocalizations.
 
-Of the three methods described in the article, implementations of two are provided here -
+Of the three methods described in the article, implementations of the following two are provided here -
 * Blob Detector (implemented in Python)
 * Entropy Detector (implemented in Matlab)
 
-Instructions for using them are provided below. If you use these (in entirety or parts of them), we request that you cite the aforementioned article.
+Instructions for using them are provided below. If you use these (in entirety or as parts), we request that you please cite the aforementioned article.
 
 ---
 
