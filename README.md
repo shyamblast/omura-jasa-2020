@@ -1,7 +1,7 @@
 # omura-jasa-2020
 Implementation of algorithms described in
 
-> Shyam Madhusudhana, Anita Murray, and Christine Erbe. "Automatic detectors for low-frequency vocalizations of Omura’s whales, Balaenoptera omurai: A performance comparison." _The Journal of the Acoustical Society of America_ (2020)
+> Shyam Madhusudhana, Anita Murray, and Christine Erbe. "Automatic detectors for low-frequency vocalizations of Omura’s whales, _Balaenoptera omurai_: A performance comparison." _The Journal of the Acoustical Society of America_ (2020)
 
 for the detection of Omura's whale vocalizations.
 
@@ -14,12 +14,12 @@ Instructions for using them are provided below. If you use these (in entirety or
 ---
 
 ## Blob Detector
-The Python3 implementation provided in **omura_detector.py** requires the [DetectSound](https://github.com/shyamblast/DetectSound) module (which contains the general-purpose blob detection functionality), [librosa](https://librosa.github.io/librosa/) (for loading audio files) and [matplotlib](https://matplotlib.org/) (used for displaying detection results). These can be installed from your command prompt as -
+The Python3 implementation provided in [blob_detector/omura_detector.py](blob_detector/omura_detector.py) requires the Python packages [DetectSound](https://github.com/shyamblast/DetectSound) (which contains the general-purpose blob detection functionality), [librosa](https://librosa.github.io/librosa/) (for loading audio files) and [matplotlib](https://matplotlib.org/) (used for displaying detection results). These can be installed from command prompt as -
 ```shell
 $> pip3 install librosa matplotlib
 $> pip3 install git+https://github.com/shyamblast/DetectSound.git
 ```
-The detector can then be run as
+After downloading **omura_detector.py** on your local machine, the detector can then be run as
 ```shell
 $> python3 omura_detector.py /path/to/audio_file.wav
 ```
@@ -32,11 +32,4 @@ to save the detection results to a file in Raven Selection Table format.
 ---
 
 ## Entropy Detector
-The Matlab implementation provided in **omura_detector.m** requires the following Matlab toolboxes:
-* signalprocessing
-* any others?
-
-It can be run as ...
-```matlab
-> ...
-```
+The Matlab implementation of the entropy detector is provided as a collection of 3 files in [entropy_detector](entropy_detector). After downloading the entire folder, set directory paths appropriately on lines 33 & 34 in [OmuraEntropy2XSTD.m](entropy_detector/OmuraEntropy2XSTD.m) and then execute the script within Matlab.
