@@ -1,4 +1,4 @@
-# omura-jasa-2020
+# omura-jasa-2020 [![DOI](https://zenodo.org/badge/249245872.svg)](https://zenodo.org/badge/latestdoi/249245872)
 Implementation of algorithms described in
 
 > Shyam Madhusudhana, Anita Murray, and Christine Erbe. "Automatic detectors for low-frequency vocalizations of Omura’s whales, _Balaenoptera omurai_: A performance comparison." _The Journal of the Acoustical Society of America_ (2020)
