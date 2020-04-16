@@ -13,10 +13,10 @@
 % and combines the detections into 1 output file.
 
 % If you use this software, we request that you please cite:
-%   Shyam Madhusudhana, Anita Murray, and Christine Erbe. "Automatic detectors
-%   for low-frequency vocalizations of Omura’s whales, Balaenoptera omurai: A
-%   performance comparison." The Journal of the Acoustical Society of America
-%   (2020)
+%   Shyam Madhusudhana, Anita Murray, and Christine Erbe. (2020). "Automatic
+%   detectors for low-frequency vocalizations of Omura’s whales, Balaenoptera
+%   omurai: A performance comparison." The Journal of the Acoustical Society
+%   of America. 147(4). DOI: 10.1121/10.000108
 
 % Notes:
 % For performance assessment (e.g., ROC curves), need to vary Xstd on line 57.

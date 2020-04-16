@@ -1,9 +1,9 @@
 """
 A Python implementation of the blob detector algorithm described in
-  Shyam Madhusudhana, Anita Murray, and Christine Erbe. "Automatic detectors
-  for low-frequency vocalizations of Omura’s whales, Balaenoptera omurai: A
-  performance comparison." The Journal of the Acoustical Society of America
-  (2020)
+  Shyam Madhusudhana, Anita Murray, and Christine Erbe. (2020). "Automatic
+  detectors for low-frequency vocalizations of Omura’s whales, Balaenoptera
+  omurai: A performance comparison." The Journal of the Acoustical Society
+  of America. 147(4). DOI: 10.1121/10.000108
 for the detection of Omura's whale vocalizations.
 If you use this software, we request that you please cite the above article.
 
